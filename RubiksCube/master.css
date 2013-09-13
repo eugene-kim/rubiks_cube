@@ -1,0 +1,59 @@
+/* Eric Meyer's Reset CSS v2.0 - http://cssreset.com */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
+
+*, html {
+	font-family: "Helvetica Neue", "Segoe UI", "Arial";
+	font-weight: 200;
+}
+
+html {font-size: 62.5%;}
+
+html body {
+	font-size: 1.5em;
+	font-family: "Helvetica Neue", "Segoe UI", "Arial";
+	font-weight: 200;
+	color: white;
+	line-height: 1;
+	background-color: #57bbd2;
+}
+
+html h1 { font-size: 2em;}
+html h2 {
+	font-size: 1.5em;
+	margin-bottom: 0.6em;
+}
+
+.container {
+	width: 960px;
+	background-color: red;
+	}
+
+.centered {
+	width: 860px;
+	padding: 45px 40px 40px 40px;
+	margin: auto;
+}
+
+#header {
+	font-size: 5em;
+	font-family: "Gill Sans", "Gill Sans MT";
+	font-weight: 400;
+	text-align:  center;
+	margin: 0px 0px 35px 0px;
+}
+
+#footer {
+	font-size: 0.85em;
+	text-align: center;
+	clear: both;
+	margin-bottom: 0px;
+}
+
+#footer a{
+	text-decoration: none;
+	padding: 0px 10px 0px 10px;
+}
+
+#footer a:link, a:visited { color: white; }
+
+#footer a:hover, a:active { text-decoration: underline;}
