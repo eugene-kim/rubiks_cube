@@ -1,18 +1,19 @@
-<!doctype html>
-<html lang="en">
-<head>
-<meta charset="utf-8" />
-<script type="text/JavaScript" src="jsDraw2D.js"></script>
-<title>Hello World</title>
-<!-- CSS for presentation. -->
-<style>
-h1 { font-size: 14px; color: hotpink; }
-button { color: red; }
-</style>
+<html>
+<head>	
+	<link rel="stylesheet" type="text/css" href="master.css" media="screen"/>
+	<link rel="stylesheet" type="text/css" href="index.css" media="screen"/>
 </head>
 <body>
-
-<button id='shuffle'>Shuffle!</button>
+	<div class="container"> 
+		<div style="text-align: center;"> <img src="img/cube2.jpg" alt="Cube 2" width="150" height="150"> </div>
+		<div style="text-align: center;"> <img src="img/cube3.jpg" alt="Cube 3" width="150" height="150"> </div>
+		<div style="text-align: center;"> <img src="img/cube4.jpg" alt="Cube 4" width="150" height="150"> </div>
+	<h1 style="color:red"> <center> Rubik's Cube Game! </center> </h1> 
+	<h2 style="color:green"> <center> What is a Rubik's Cube? </center> </h2> 
+		<p> The Rubik's Cube is a 3-D combination puzzle invented in 1974 by Hungarian sculptor and professor of architecture Erno Rubik. In a classic Rubik's Cube, each of the six faces is covered by nine stickers, each of one of six solid colors (white, red, blue, orange, green, and yellow, where white is opposite yellow, blue is opposite green, and orange is opposite red, and the red, white and blue are arranged in that order in a clockwise arrangement. The goal of the puzzle is to have each face consisting of only one color. </p> 
+	<h2 style="color:orange"> <center> Try our virtual game and see if you can compete with the world's best! </center> </h2> 
+		<div id="game">
+			<button id='shuffle'>Shuffle!</button>
 <button id='reset'>Reset</button>
 <br>
 <button id='ml'>Move Left</button>
@@ -21,19 +22,13 @@ button { color: red; }
 <button id='md'>Move Down</button>
 <button id='mf'>Move Front</button>
 <button id='mb'>Move Back</button>
-
-
 <br>
-
 <button id='mlcc'>Move Leftcc</button>
 <button id='mrcc'>Move Rightcc</button>
 <button id='mucc'>Move Upcc</button>
 <button id='mdcc'>Move Downcc</button>
 <button id='mfcc'>Move Frontcc</button>
 <button id='mbcc'>Move Backcc</button>
-
-
-
 
 <br>
 <br>
@@ -138,7 +133,7 @@ button { color: red; }
     minx = 100;
     miny = 100;
     
-    
+    console.log("34534545345");
     
 
     function renderAll() {
@@ -654,5 +649,45 @@ button { color: red; }
     //alert( person1.firstName + " " + person1.lastName );*/
 
 </script>
+
+		</div>
+	<h2 style="color:red;"> <center> What are the current world records? </center> </h2>
+		<table border="1">
+			<tr>
+				<td> Mats Valk (Netherlands) </td>
+				<td> Feliks Zemdegs (Australia) </td>
+				<td> Erik Akkersdijk (Netherlands) </td>
+				<td> Yu Nakajima (Japan) </td>
+				<td> Edouard Chambon (France) </td>
+				<td> Ron van Bruchem (Netherlands) </td>
+				<td> Thibaut Jacquinot (France) </td>
+				<td> Toby Mao (USA) </td>
+				<td> Leyan Lo (USA) </td>
+				<td> Jean Pons (France) </td>
+				<td> Shotaro Makisumi (Japan) </td>
+				<td> Jess Bonde (Denmark) </td>
+				<td> Dan Knights (USA) </td>
+				<td> Robert Pergl (Czechoslovakia) </td>
+				<td> Ronald Brinkmann (Germany) </td>
+			</tr>
+			<tr>
+				<td> <a href="http://www.youtube.com/watch?v=WCrTrtxAUbA"> 5.55 </a> </td>
+				<td> <a href="http://www.youtube.com/watch?v=3v_Km6cv6DU"> 5.66 </a> </td>
+				<td> <a href="http://www.youtube.com/watch?v=VzGjbjUPVUo"> 7.08 </a> </td>
+				<td> <a href="http://www.youtube.com/watch?v=h6GnxKGicyg"> 8.72 </a> </td>
+				<td> <a href="http://www.youtube.com/watch?v=PLOT1Z_c1Dc"> 9.18 </a> </td>
+				<td> 9.55 </td>
+				<td> 9.86 </td>
+				<td> <a href="http://www.youtube.com/watch?v=zHTuvB9Vm9s"> 10.48 </a> </td>
+				<td> <a href="http://www.youtube.com/watch?v=uNBFGl7ErJE"> 11.13 </a> </td>
+				<td> <a href="http://www.youtube.com/watch?v=2BcxVZvIxTI"> 11.75 </a> </td>
+				<td> <a href="http://www.youtube.com/watch?v=IUofj3fl9Ag"> 12.11 </a> </td>
+				<td> 16.53 </td>
+				<td> 16.71 </td>
+				<td> 17.02 </td>
+				<td> 19 </td>
+			</tr>
+		</table>
+	</div>
 </body>
 </html>

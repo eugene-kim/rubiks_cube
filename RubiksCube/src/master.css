@@ -6,15 +6,17 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 	font-weight: 200;
 }
 
+
+
 html {font-size: 62.5%;}
 
 html body {
 	font-size: 1.5em;
 	font-family: "Helvetica Neue", "Segoe UI", "Arial";
 	font-weight: 200;
-	color: white;
+	color: grey;
 	line-height: 1;
-	background-color: #57bbd2;
+	background-color: #FFFFFF;
 }
 
 html h1 { font-size: 2em;}
@@ -25,7 +27,8 @@ html h2 {
 
 .container {
 	width: 960px;
-	background-color: red;
+	position: center;
+	
 	}
 
 .centered {
